@@ -1,0 +1,52 @@
+# Code2Game Frontend
+
+This is the frontend for the Code2Game project.
+
+## Overview
+
+Code2Game is an interactive web application that allows users to play games generated from code. The frontend is built to provide a seamless and engaging user experience.
+
+## Features
+
+- User-friendly interface
+- Game selection and launching
+- Integration with backend APIs
+
+## Getting Started
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/code2game.git
+    ```
+2. Navigate to the frontend directory:
+    ```
+    cd code2game/
+    ```
+3. Install dependencies:
+    ```
+    npm install
+    ```
+4. Start the development server:
+    ```
+    npm run dev
+    ```
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS/SCSS
+- Axios (for API calls)
+
+## Folder Structure
+
+- `/src` - Source code for the frontend
+- `/public` - Static assets
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements.
+
+## License
+
+This project is licensed under the MIT License.
