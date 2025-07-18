@@ -1,0 +1,112 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  padding: 2rem;
+  max-width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.about-intro {
+  width: 10%;
+  float: left;
+  padding: 2rem;
+  background-color: #a2cad4;
+  height: 68.7vh;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.about-intro h1 {
+  font-size: 2.5rem;
+  color: #2a2d63;
+  margin-bottom: 1rem;
+}
+
+.about-intro p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+.about-sections {
+  width: 80%;
+  float: right; /* Align to the right */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-mission{
+    width: 100%;
+    float: right;
+    padding: 2rem;
+    background:linear-gradient(to left, #e3d284, #8a7dad);
+    height: 25vh;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px 0px 50px 0px;
+ }
+ .about-team {
+    width: 100%;
+    padding: 2rem;
+    background:linear-gradient(to right, #e3d284, #8a7dad);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  margin-bottom: 3rem;
+  border-radius: 50px 0px 50px 0px;
+}
+
+.about-intro h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #2a2d63;
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+}
+
+.about-mission h2,
+.about-team h2 {
+  font-size: 2rem;
+  color: #ffb300;
+  
+}
+
+.about-mission p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.team-card {
+  border: 2px solid #2a2d63;
+  border-radius: 0px 50px 0px 50px;
+  padding: 1.2rem;
+  background: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.03);
+}
+
+.team-card h3 {
+  margin-top: 0;
+  color: #2a2d63;
+}
+
+.team-card .role {
+  font-weight: bold;
+  color: #ffb300;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.admin-login-container{
+  max-width: 500px;
+  margin: 4rem auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 60px 0 60px 0px;
+  background-color: #ff4d50b2;
+  box: shadow 1.2em;;
+}
+
+.admin-dashboard-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.admin-form input {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 10px 30px;
+}
+
+.admin-form button {
+  padding: 10px 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.student-table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.student-table th {
+  background-color: #f4f4f4;
+}
+
+.student-table button {
+  background-color: #ff4d4f;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.hero-container {
+  background: linear-gradient(to bottom right, #0a0a0a, #1c1c1c);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);  
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f9f9f9;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+    margin: 0 1rem;
+}
+.nav-links a:hover {
+  color: #f4f1d8;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn {
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.primary-btn:hover {
+  background: #f4f1d8;
+  transform: translateY(-2px);
+    background: linear-gradient(120deg, #fff, #f4f1d8, #fff);
+  background-size: 200% 100%;
+  background-position: left;
+  transition: background-position 0.4s ease;
+}
+.primary-btn {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero Section */
